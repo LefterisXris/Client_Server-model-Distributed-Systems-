@@ -22,7 +22,7 @@ public class MultiServerThread extends Thread {
 	 * Κατασκευαστής.
 	 */
 	public MultiServerThread(Socket socket) {
-		super("MultiServerThread");
+		//super("MultiServerThread");
 		this.socket = socket;
 
 		balance = 550; // Αρχικοποιείται το υπόλοιπο του κάθε πελάτη με 550 ευρώ.
